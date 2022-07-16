@@ -13,7 +13,7 @@ document.getElementById("btn").onclick = function production(ev){
     document.getElementById("shadeB").value = "Your production in Shed B is " + shadeb.value +" litres per day";
     document.getElementById("shadeC").value = "Your production in Shed C is " + shadec.value +" litres per day";
     document.getElementById("shadeD").value = "Your production in Shed D is " + shaded.value +" litres per day";
-    document.getElementById("total").value = "The total production is litres per day";
+    document.getElementById("total").value = "The total production is "+ total.value+ " litres per day";
    
     ev.preventDefault();
     production();
