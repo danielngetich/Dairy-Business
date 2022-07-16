@@ -1,13 +1,15 @@
+function totalProduction()
+
 let shades = [];
  
 const production = (ev)=>{
     ev.preventDefault();
 }
 let shade = {
-    shadeA:document.getElementById("shadea"),
-    shadeB:document.getElementById("shadeb"),
-    shadeC:document.getElementById("shadec"),
-    shadeD:document.getElementById("shaded"),
+    shadeA:document.getElementById("shade-a"),
+    shadeB:document.getElementById("shade-b"),
+    shadeC:document.getElementById("shade-c"),
+    shadeD:document.getElementById("shade-d"),
 }
 shades.push(shade);
 document.forms[0].reset();
