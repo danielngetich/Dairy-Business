@@ -16,6 +16,17 @@ document.getElementById("btn").onclick = function production(ev){
     document.getElementById("total").value = "The total production is "+ total+ " litres per day";
    
     ev.preventDefault();
+
+document.getElementById("button").onclick = function(){
+    let price = 45 ;
+    let weekly = total * price * 7;
+   let yearly = total * price *365;
+
+   document.getElementById("weekly").value = "Your weekly income will be Ksh "+ weekly;
+   document.getElementById("yearly").value = "Your weekly income will be Ksh "+ yearly;
+   
+   
+}
 }
 
 

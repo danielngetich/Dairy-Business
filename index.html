@@ -8,23 +8,24 @@
         <h1>DAIRY BUSINESS REPORT</h1>
         <form>
             <div class="formbox">
-                <label for="title">SHADE A </label>
+                <label for="title">SHADE A:In Litres </label>
                 <input type="number" id="shadea">
             </div>
             <div class="formbox">
-                <label for="title">SHADE B </label>
+                <label for="title">SHADE B:In Litres </label>
                 <input type="number" id="shadeb">
             </div>
             <div class="formbox">
-                <label for="number">SHADE C </label>
+                <label for="number">SHADE C:In Litres </label>
                 <input type="number" id="shadec">
             </div>
             <div class="formbox">
-                <label for="number">SHADE D </label>
+                <label for="number">SHADE D:In Litres </label>
                 <input type="number" id="shaded">
             </div>
             <div class="formbox">
                 <button id="btn">Production</button>
+                <button id="reset">reset</button>
             </div>
         </form>
         <div id="results">
@@ -33,6 +34,13 @@
             <output id="shadeC"></output><br/>
             <output id="shadeD"></output><br/>
             <output id="total"></output>
+        </div>
+        <div class="button">
+            <button id="button">Income Over Time</button>
+        </div>
+        <div class="income">
+            <output id="weekly"></output><br>
+            <output id="yearly"></output>
         </div>
         <script src="assets/js/index.js"></script>
     </body>
