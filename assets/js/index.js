@@ -55,5 +55,6 @@ document.getElementById("yearly-report").onclick = function(){
   document.getElementById("dec").value = "Your income for December is "+December;
 }
 }
+document.getElementById("reset").onclick = function(){reset()};
 }
 

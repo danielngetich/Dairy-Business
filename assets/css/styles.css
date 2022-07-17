@@ -4,6 +4,7 @@
 }
 h1{
     text-align: center;
+    color: green;
 }
 body{
     background-image: url("/assets/images/backgr.jpg");
@@ -38,4 +39,11 @@ output{
     width: 40%;
     margin-left: 32%;
     height: 400px;
+}
+button{
+    font-size: 18px;
+    background-color:grey ;
+}
+label{
+    color: green;
 }
