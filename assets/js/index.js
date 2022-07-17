@@ -23,7 +23,7 @@ document.getElementById("button").onclick = function(){
    const yearly = total * price *365;
 
    document.getElementById("weekly").value = "Your weekly income will be Ksh "+ weekly;
-   document.getElementById("yearly").value = "Your weekly income will be Ksh "+ yearly;
+   document.getElementById("yearly").value = "Your Yearly income will be Ksh "+ yearly;
    
    ev.preventDefault();
 
