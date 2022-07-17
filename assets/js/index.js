@@ -16,7 +16,7 @@ document.getElementById("btn").onclick = function production(ev){
     document.getElementById("total").value = "The total production is "+ total+ " litres per day";
    
     ev.preventDefault();
-
+}
 document.getElementById("button").onclick = function(){
     let price = 45 ;
     let weekly = total * price * 7;
@@ -25,8 +25,23 @@ document.getElementById("button").onclick = function(){
    document.getElementById("weekly").value = "Your weekly income will be Ksh "+ weekly;
    document.getElementById("yearly").value = "Your weekly income will be Ksh "+ yearly;
    
-   
+   ev.preventDefault();
 }
+document.getElementById("yearly-report").onclick = Function(leapyear);{
+    const leapyear = {
+        January : 31,
+        February : 29,
+        march : 31,
+        April : 30,
+        May : 31,
+        June : 30,
+        July : 31,
+        August : 31,
+        September:30,
+        October: 31,
+        November: 30,
+        December:31,
+    }
 }
 
 
