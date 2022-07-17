@@ -26,23 +26,34 @@ document.getElementById("button").onclick = function(){
    document.getElementById("yearly").value = "Your weekly income will be Ksh "+ yearly;
    
    ev.preventDefault();
-}
-document.getElementById("yearly-report").onclick = Function(leapyear);{
-    const leapyear = {
-        January : 31,
-        February : 29,
-        march : 31,
-        April : 30,
-        May : 31,
-        June : 30,
-        July : 31,
-        August : 31,
-        September:30,
-        October: 31,
-        November: 30,
-        December:31,
-    }
-}
-}
 
+document.getElementById("yearly-report").onclick = function(){
+    const January = total* price *31;
+    const February = total*price* 29;
+    const march = total *price*31;
+    const  April = total *price*30;
+    const  May = total *price*31;
+    const   June = total *price*30;
+    const   July = total *price*31;
+    const   August = total *price*31;
+    const   September=total *price*30;
+    const   October= total *price*31;
+    const  November= total *price*30;
+    const  December=total *price*31;
+    
+  document.getElementById("jan").value = "Your income for January is "+January;
+  document.getElementById("feb").value = "Your income for February is "+February;
+  document.getElementById("mar").value = "Your income for March is "+march;
+  document.getElementById("apr").value = "Your income for April is "+April;
+  document.getElementById("may").value = "Your income for May is "+May;
+  document.getElementById("june").value = "Your income for June is "+June;
+  document.getElementById("july").value = "Your income for July is "+July;
+  document.getElementById("aug").value = "Your income for August is "+August;
+  document.getElementById("sept").value = "Your income for September is "+September;
+  document.getElementById("oct").value = "Your income for October is "+ October;
+  document.getElementById("nov").value = "Your income for November is "+November;
+  document.getElementById("dec").value = "Your income for December is "+December;
+}
+}
+}
 
